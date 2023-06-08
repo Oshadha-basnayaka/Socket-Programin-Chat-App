@@ -19,15 +19,15 @@
          <children>
             <Label fx:id="nameId" alignment="CENTER" layoutX="178.0" layoutY="15.0" prefHeight="21.0" prefWidth="96.0" text="SERVER" textAlignment="CENTER">
                <font>
-                  <Font name="System Bold" size="19.0" />
+                  <Font name="System Bold" size="18.0" />
                </font>
             </Label>
          </children></Pane>
-      <TextField fx:id="txtFeld" layoutX="88.0" layoutY="574.0" onAction="#sendOnAction" prefHeight="39.0" prefWidth="238.0" promptText="type a message" style="-fx-background-color: #a6a6a6; -fx-background-radius: 16;">
+      <TextField fx:id="txtFeld" layoutX="88.0" layoutY="570.0" onAction="#sendOnAction" prefHeight="39.0" prefWidth="238.0" promptText="type a message" style="-fx-background-color: #a6a6a6; -fx-background-radius: 16;">
          <font>
             <Font name="System Bold" size="15.0" />
          </font></TextField>
-      <ImageView accessibleRole="BUTTON" fitHeight="39.0" fitWidth="47.0" layoutX="344.0" layoutY="576.0" onMouseClicked="#SendBtnOnAction" pickOnBounds="true" preserveRatio="true">
+      <ImageView accessibleRole="BUTTON" fitHeight="39.0" fitWidth="47.0" layoutX="344.0" layoutY="572.0" onMouseClicked="#SendBtnOnAction" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/image-removebg-preview.png" />
          </image>
@@ -35,7 +35,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </ImageView>
-      <ImageView accessibleRole="BUTTON" fitHeight="22.0" fitWidth="26.0" layoutX="289.0" layoutY="582.0" onMouseClicked="#imgOnAction" pickOnBounds="true" preserveRatio="true">
+      <ImageView accessibleRole="BUTTON" fitHeight="22.0" fitWidth="26.0" layoutX="289.0" layoutY="578.0" onMouseClicked="#imgOnAction" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@image/img.png" />
          </image>

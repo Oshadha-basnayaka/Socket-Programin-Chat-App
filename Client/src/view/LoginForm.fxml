@@ -14,6 +14,6 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Button layoutX="224.0" layoutY="278.0" mnemonicParsing="false" onAction="#joineOnAction" text="Login" />
+      <Button layoutX="224.0" layoutY="278.0" mnemonicParsing="false" onAction="#joineOnAction" style="-fx-background-color: #c8d6e5;" text="Login" />
    </children>
 </AnchorPane>
